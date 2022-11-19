@@ -120,15 +120,112 @@ input[type=file]
    .bottom div:last-child{
     margin-right: 0px;
    } */
-.bottom #images {
-    width: 40%;
-    height: auto;
+.divider {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
     margin-top: 5%;
 }
+.bottom {
+    float: left;
+    margin-left: 5%;
+}
+
 .containerN2 {
-    width: 40%;
-    height: auto;
+    float: left;
     margin-top: 5%;
+    margin-left: 5%;
+}
+
+.certificate {
+    width: 100px;
+    height: auto;
+}
+
+#yourBtn {
+    /* position: relative;
+    top: 150px; */
+    font-family: calibri;
+    width: 150px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px dashed #BBB;
+    text-align: center;
+    background-color: #DDD;
+    cursor: pointer;
+}
+#ethVal {
+    position: relative;
+    /* top: 150px; */
+    float:left;
+    /* height: 40px; */
+    /* width: 80px; */
+    font-size: 1.2rem;
+    /* display: none; */
+}
+#finalForm {
     float: right;
-    position: static;
+    width: 50%;
+    margin-right: 5%;
+}
+#finalForm label {
+    /* display: block; */
+    margin-right: 5%;
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+}
+#finalForm input {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 3%;
+    height: 80%;
+    font-size: 1rem;
+    background-color:#dacfc2;
+    color: black;
+    font-weight: bold;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+    margin-top:80%;
+}
+button {
+    padding: 2%;
+    float:right;
+}
+/* CSS */
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
 }
