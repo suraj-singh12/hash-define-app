@@ -1,8 +1,8 @@
 const images = {
-    "card1": require('./Card 1.jpg'),
-    "card2": require('./Card 2.wepg'),
-    "card3": require('./Card 3.wepg'),
-    "card4": require('./Card 4.png'),
+    "card1": require('./card1.jpg'),
+    "card2": require('./card2.webp'),
+    "card3": require('./card3.webp'),
+    "card4": require('./card4.png'),
     "ethereumIcon": require('./Etherium Icon.png'),
     "hashDefine": require('./HashDefine_Background.jpg'),
     "menuIcon": require('./Menu Icon.png'),

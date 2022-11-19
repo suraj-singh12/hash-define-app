@@ -3,7 +3,9 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './components/Home';
 import upCertificate from './components/UpCertificate';
 import validCertificate from './components/ValidCertificate';
-
+import Contact from './components/Contact';
+import Login from './components/Login';
+import SignUp from './components/Signup';
 
 const Router = ({location}) => {
     return (
@@ -11,16 +13,9 @@ const Router = ({location}) => {
             <Route exact path="/" component={Home} />
             <Route exact path="/uploadCertificate" component={upCertificate} />
             <Route exact path="/validCertificate" component={validCertificate} />
-            {/* using params in /listing (see :id) */}
-            {/* <Route path="/listing/:id" component={Listing} />
-            <Route path="/details" component={Details} />
-            <Route path="/login" component={Login} />
-            <Route path="/signup" component={Signup} />
-            <Route path="/checkout" component={Checkout} />
-            <Route path='/orders' component={ViewOrders} />
-
-            <Route path='/wishlist' component={WishList} />
-            <Route path='/cart' component={Cart} /> */}
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/signup" component={SignUp} />
         </BrowserRouter>
     )
 }
