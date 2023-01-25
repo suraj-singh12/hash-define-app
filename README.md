@@ -2,6 +2,8 @@
 
 hashDefine - Ultra Hacks Project 2022
 
+## APIs for this project are here
+[Hash Define App APIs](https://github.com/suraj-singh12/hashDefine_APIs)
 
 # Getting Started with Create React App
 
